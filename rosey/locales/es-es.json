@@ -35,13 +35,57 @@
 		"original": "\n<p data-rosey=\"well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school\">We’ll throw some old gray clouds in here just sneaking around and having fun. Only eight colors that you need. This is the fun part Put it in, leave it alone. Get away from those little Christmas tree things we used to make in school.</p>\n",
 		"value": "\n<p data-rosey=\"well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school\">We’ll throw some old gray clouds in here just sneaking around and having fun. Only eight colors that you need. This is the fun part Put it in, leave it alone. Get away from those little Christmas tree things we used to make in school.</p>\n"
 	},
+	"Z0kOrbgL5jCwZuz9GfzKjJhQtUQPeSL0SAK/loGVZ80": {
+		"original": "      - ",
+		"value": "      - "
+	},
 	"all-you": {
 		"original": "All you <strong data-rosey=\"have\">have</strong> to learn <em data-rosey=\"here\">here</em> is how to have fun. Just pretend you are a whisper floating across a mountain. You have to make almighty <sub>decisions</sub> when you’re the <sup>creator</sup>. There we are.",
 		"value": "All you <strong data-rosey=\"have\">have</strong> to learn <em data-rosey=\"here\">here</em> is how to have fun. Just pretend you are a whisper floating across a mountain. You have to make almighty <sub>decisions</sub> when you’re the <sup>creator</sup>. There we are."
 	},
+	"an-array-item": {
+		"original": "an array item",
+		"value": "an array item"
+	},
+	"an_object_key": {
+		"original": "  an_object_key",
+		"value": "  an_object_key"
+	},
+	"another-array-item": {
+		"original": "another array item",
+		"value": "another array item"
+	},
 	"another-code-block": {
 		"original": "Another code block:",
 		"value": "Another code block:"
+	},
+	"another_thing": {
+		"original": "    another_thing",
+		"value": "    another_thing"
+	},
+	"code": {
+		"original": "code",
+		"value": "code"
+	},
+	"div": {
+		"original": "div",
+		"value": "div"
+	},
+	"greater": {
+		"original": "&gt;",
+		"value": "&gt;"
+	},
+	"greatera-paragraphless": {
+		"original": "&gt;A paragraph&lt;/",
+		"value": "&gt;A paragraph&lt;/"
+	},
+	"greaterthis-is-a-test-for-html-code-blocksless": {
+		"original": "&gt;This is a test for HTML code blocks&lt;/",
+		"value": "&gt;This is a test for HTML code blocks&lt;/"
+	},
+	"h1": {
+		"original": "h1",
+		"value": "h1"
 	},
 	"have": {
 		"original": "have",
@@ -51,9 +95,25 @@
 		"original": "here",
 		"value": "here"
 	},
+	"less": {
+		"original": "&lt;",
+		"value": "&lt;"
+	},
+	"mNpNl/f+H5Ef6sxmw7adKQ/slhvj+v03eUT3yUZs54U": {
+		"original": ":",
+		"value": ":"
+	},
 	"mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day": {
 		"original": "Mix your color marbly don’t mix it dead. Trees cover up a multitude of sins. The only prerequisite is that it makes you happy. If it makes you happy then it’s good. When you do it your way you can go anywhere you choose. We’ll have a super time. Don’t fiddle with it all day.",
 		"value": "Mix your color marbly don’t mix it dead. Trees cover up a multitude of sins. The only prerequisite is that it makes you happy. If it makes you happy then it’s good. When you do it your way you can go anywhere you choose. We’ll have a super time. Don’t fiddle with it all day."
+	},
+	"options": {
+		"original": "    options",
+		"value": "    options"
+	},
+	"p": {
+		"original": "p",
+		"value": "p"
 	},
 	"take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here": {
 		"original": "Take your time. Speed will come later. You can bend rivers. But when I get home, the only thing I have power over is the garbage. Let’s get wild today. If you don’t think every day is a good day - try missing a few. You’ll see. Play with the angles. We don’t have to be committed. We are just playing here.",
@@ -70,6 +130,10 @@
 	"well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school": {
 		"original": "We’ll throw some old gray clouds in here just sneaking around and having fun. Only eight colors that you need. This is the fun part Put it in, leave it alone. Get away from those little Christmas tree things we used to make in school.",
 		"value": "We’ll throw some old gray clouds in here just sneaking around and having fun. Only eight colors that you need. This is the fun part Put it in, leave it alone. Get away from those little Christmas tree things we used to make in school."
+	},
+	"{}": {
+		"original": ": {}",
+		"value": ": {}"
 	},
 	"be-aware-of-whats-normal-for-your-target-customers-inboxes-if-youre-sending-out-emails-to-people-who-are-on-gmail-and-yahoo-accounts-then-theres-little-chance-theyll-get-blocked-because-their-addresses-havent-been-flagged-as-spam-yet-but-if-youre-reaching-out-to-people-with-outlook-or-aol-addresses-theres-a-good-chance-your-message-will-get-flagged-as-junk-mail-and-end-up-in-their-spam-folder-before-they-ever-see-it-make-sure-youre-testing-different-types-of-addresses-before-sending-out-any-mass-marketing-campaigns": {
 		"original": "Be aware of what’s normal for your target customers’ inboxes. If you’re sending out emails to people who are on Gmail and Yahoo accounts, then there’s little chance they’ll get blocked because their addresses haven’t been flagged as spam yet. But if you’re reaching out to people with Outlook or AOL addresses, there’s a good chance your message will get flagged as junk mail and end up in their spam folder before they ever see it. Make sure you’re testing different types of addresses before sending out any mass marketing campaigns.",
