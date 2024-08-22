@@ -2,7 +2,7 @@ urlTranslation: index.html
 _inputs:
   $:
     type: object
-    comment: "[See ](https://turquoise-kumara.cloudvent.net/)"
+    comment: '[See ](https://turquoise-kumara.cloudvent.net/)'
     options:
       place_groups_below: false
       groups:
@@ -18,49 +18,50 @@ _inputs:
             - static:hero-subheading-home-1
             - static:left-right-text-home-1
         - heading: Already translated (fr-fr)
-          comment: Text already translated on [](https://turquoise-kumara.cloudvent.net/)
+          comment: >-
+            Text already translated on
+            [](https://turquoise-kumara.cloudvent.net/)
           inputs: []
   astro-rosey-starter:
     label: Astro Rosey Starter
     hidden: false
     type: text
     options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/#:~:text=Astro%20Rosey%20Sta\
-      rter)"
+    comment: >-
+      [See on
+      page](https://turquoise-kumara.cloudvent.net/#:~:text=Astro%20Rosey%20Starter)
   blog:
     label: Blog
     hidden: false
     type: text
     options: {}
-    comment: "[See on page](https://turquoise-kumara.cloudvent.net/#:~:text=Blog)"
+    comment: '[See on page](https://turquoise-kumara.cloudvent.net/#:~:text=Blog)'
   cloudcannon:
     label: CloudCannon
     hidden: false
     type: text
     options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/#:~:text=CloudCannon)"
+    comment: '[See on page](https://turquoise-kumara.cloudvent.net/#:~:text=CloudCannon)'
   github:
     label: GitHub
     hidden: false
     type: text
     options: {}
-    comment: "[See on page](https://turquoise-kumara.cloudvent.net/#:~:text=GitHub)"
+    comment: '[See on page](https://turquoise-kumara.cloudvent.net/#:~:text=GitHub)'
   keep-what-you-need-delete-the-rest:
     label: Keep what you need. Delete the rest.
     hidden: false
     type: textarea
     options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/#:~:text=Keep%20what%20you,D\
-      elete%20the%20rest)"
+    comment: >-
+      [See on
+      page](https://turquoise-kumara.cloudvent.net/#:~:text=Keep%20what%20you,Delete%20the%20rest)
   rss-feed:
     label: RSS Feed
     hidden: false
     type: text
     options: {}
-    comment: "[See on page](https://turquoise-kumara.cloudvent.net/#:~:text=RSS%20Feed)"
+    comment: '[See on page](https://turquoise-kumara.cloudvent.net/#:~:text=RSS%20Feed)'
   static:hero-subheading-home-1:
     label: A starting point for developers looking to...
     hidden: false
@@ -82,14 +83,15 @@ _inputs:
       code: true
       horizontalrule: true
       image: true
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/#:~:text=A%20starting%20poin\
-      t,the%20CloudCannon%20CMS)"
+    comment: >-
+      [See on
+      page](https://turquoise-kumara.cloudvent.net/#:~:text=A%20starting%20point,the%20CloudCannon%20CMS)
     context:
       open: false
       title: Untranslated Text
       icon: translate
-      content: A starting point for **developers looking to build a multilingual
+      content: >-
+        A starting point for **developers looking to build a multilingual
         website with [Astro](https://astro.build/) and
         [Rosey](https://rosey.app/), using
         [Bookshop](https://github.com/CloudCannon/bookshop)'s component-based
@@ -119,9 +121,9 @@ _inputs:
       code: true
       horizontalrule: true
       image: true
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/#:~:text=As%20well%20as,CSS%\
-      20variables)"
+    comment: >-
+      [See on
+      page](https://turquoise-kumara.cloudvent.net/#:~:text=As%20well%20as,CSS%20variables)
     context:
       open: false
       title: Untranslated Text
@@ -154,11 +156,18 @@ _inputs:
         * CloudCannon configuration
 
         * CSS variables
-astro-rosey-starter: ""
-blog: ""
-cloudcannon: ""
-github: ""
-keep-what-you-need-delete-the-rest: ""
-rss-feed: ""
-static:hero-subheading-home-1: ""
-static:left-right-text-home-1: ""
+astro-rosey-starter: ''
+blog: ''
+cloudcannon: ''
+github: ''
+keep-what-you-need-delete-the-rest: ''
+rss-feed: ''
+static:hero-subheading-home-1: >-
+  Un point de départ pour les développeurs cherchant à créer un site Web
+  multilingue avec Astro et Rosey, en utilisant l'approche basée sur les
+  composants de Bookshop pour créer et éditer des sites dans CloudCannon. Une
+  fois qu'un développeur a configuré le site, CloudCannon fournit une interface
+  utilisateur permettant aux éditeurs non techniques de gérer le contenu du site
+  et de saisir les traductions. Créez votre propre copie et commencez à créer
+  vos propres composants à utiliser dans le CMS CloudCannon.
+static:left-right-text-home-1: ''
