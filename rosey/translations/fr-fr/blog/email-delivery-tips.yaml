@@ -21,6 +21,7 @@ _inputs:
             - rss-feed
             - send-your-best-email
             - so-remember-to-keep-this-in-mind-and-to-always-know-that-if-you-are-sending-out-emails-related-to-your-business-be-sure-to-follow-up-with-customers-or-clients-and-make-sure-that-they-are-getting-their-emails-in-a-timely-manner
+            - this-is-a-test-snippet!
             - tracking
             - use-an-email-service-provider-(esp)-that-has-been-tested-by-third-party-email-certification-services-this-ensures-that-your-emails-will-be-accepted-by-the-major-isps-an-esp-that-offers-multiple-ip-addresses-or-one-that-allows-you-to-use-your-own-ip-address-if-necessary-isps-often-block-messages-from-unknown-senders-so-having-your-own-ip-address-helps-get-around-this-issue
             - use-an-esp
@@ -139,6 +140,14 @@ _inputs:
         sending out emails related to your business, be sure to follow-up with
         customers or clients and make sure that they are getting their emails in
         a timely manner.
+  this-is-a-test-snippet!:
+    label: This is a test snippet!
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See on
+      page](https://turquoise-kumara.cloudvent.net/blog/email-delivery-tips/#:~\
+      :text=This%20is%20a%20test%20snippet!)"
   tracking:
     label: Tracking
     hidden: false
@@ -251,6 +260,7 @@ keep-your-content-short-and-sweet: ""
 rss-feed: ""
 send-your-best-email: ""
 so-remember-to-keep-this-in-mind-and-to-always-know-that-if-you-are-sending-out-emails-related-to-your-business-be-sure-to-follow-up-with-customers-or-clients-and-make-sure-that-they-are-getting-their-emails-in-a-timely-manner: ""
+this-is-a-test-snippet!: ""
 tracking: ""
 use-an-email-service-provider-(esp)-that-has-been-tested-by-third-party-email-certification-services-this-ensures-that-your-emails-will-be-accepted-by-the-major-isps-an-esp-that-offers-multiple-ip-addresses-or-one-that-allows-you-to-use-your-own-ip-address-if-necessary-isps-often-block-messages-from-unknown-senders-so-having-your-own-ip-address-helps-get-around-this-issue: ""
 use-an-esp: ""

@@ -309,6 +309,14 @@
       },
       "total": 1
     },
+    "this-is-a-test-snippet!": {
+      "original": " This is a test snippet! ",
+      "value": null,
+      "pages": {
+        "blog/email-delivery-tips/index.html": 1
+      },
+      "total": 1
+    },
     "tracking": {
       "original": "Tracking",
       "value": null,

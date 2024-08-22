@@ -163,6 +163,10 @@
 		"original": "So, remember to keep this in mind and to always know that if you are sending out emails related to your business, be sure to follow-up with customers or clients and make sure that they are getting their emails in a timely manner.",
 		"value": "So, remember to keep this in mind and to always know that if you are sending out emails related to your business, be sure to follow-up with customers or clients and make sure that they are getting their emails in a timely manner."
 	},
+	"this-is-a-test-snippet!": {
+		"original": " This is a test snippet! ",
+		"value": " This is a test snippet! "
+	},
 	"tracking": {
 		"original": "Tracking",
 		"value": "Tracking"
