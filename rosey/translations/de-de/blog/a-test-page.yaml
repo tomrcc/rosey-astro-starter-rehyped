@@ -125,6 +125,6 @@ _inputs:
 
         We have a fantastic little sky! We’re trying to teach you a technique
         here and how to use it.
-blog: ""
+blog: Blog
 rss-feed: ""
 static:/blog/a-test-page/: ""

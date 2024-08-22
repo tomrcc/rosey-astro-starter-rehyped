@@ -141,6 +141,6 @@ _inputs:
         sending out emails related to your business, be sure to follow-up with
         customers or clients and make sure that they are getting their emails in
         a timely manner.
-blog: ""
+blog: Blog
 rss-feed: ""
 static:/blog/email-delivery-tips/: ""
