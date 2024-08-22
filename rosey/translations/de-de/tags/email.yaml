@@ -10,12 +10,12 @@ _inputs:
           comment: Text to translate on
             [tags/email/](https://turquoise-kumara.cloudvent.net/tags/email/)
           inputs:
-            - blog
             - rss-feed
         - heading: Already translated (de-de)
           comment: Text already translated on
             [tags/email/](https://turquoise-kumara.cloudvent.net/tags/email/)
-          inputs: []
+          inputs:
+            - blog
   blog:
     label: Blog
     hidden: false
@@ -31,5 +31,5 @@ _inputs:
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/tags/email/#:~:text=RSS%20Fe\
       ed)"
-blog: ""
+blog: Blog
 rss-feed: ""

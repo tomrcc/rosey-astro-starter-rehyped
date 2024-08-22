@@ -12,13 +12,13 @@ _inputs:
           comment: Text to translate on
             [blog/a-test-page/](https://turquoise-kumara.cloudvent.net/blog/a-test-page/)
           inputs:
-            - blog
             - rss-feed
             - static:/blog/a-test-page/
         - heading: Already translated (de-de)
           comment: Text already translated on
             [blog/a-test-page/](https://turquoise-kumara.cloudvent.net/blog/a-test-page/)
-          inputs: []
+          inputs:
+            - blog
   blog:
     label: Blog
     hidden: false
@@ -125,6 +125,6 @@ _inputs:
 
         We have a fantastic little sky! We’re trying to teach you a technique
         here and how to use it.
-blog: ""
+blog: Blog
 rss-feed: ""
 static:/blog/a-test-page/: ""

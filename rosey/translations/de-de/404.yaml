@@ -9,12 +9,12 @@ _inputs:
         - heading: Still to translate (de-de)
           comment: Text to translate on [404](https://turquoise-kumara.cloudvent.net/404)
           inputs:
-            - blog
             - rss-feed
         - heading: Already translated (de-de)
           comment: Text already translated on
             [404](https://turquoise-kumara.cloudvent.net/404)
-          inputs: []
+          inputs:
+            - blog
   blog:
     label: Blog
     hidden: false
@@ -28,5 +28,5 @@ _inputs:
     options: {}
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/404#:~:text=RSS%20Feed)"
-blog: ""
+blog: Blog
 rss-feed: ""

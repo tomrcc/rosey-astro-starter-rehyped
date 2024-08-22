@@ -15,11 +15,11 @@ _inputs:
             - github
             - keep-what-you-need-delete-the-rest
             - rss-feed
-            - static:hero-subheading-home-1
             - static:left-right-text-home-1
         - heading: Already translated (es-es)
           comment: Text already translated on [](https://turquoise-kumara.cloudvent.net/)
-          inputs: []
+          inputs:
+            - static:hero-subheading-home-1
   astro-rosey-starter:
     label: Astro Rosey Starter
     hidden: false
@@ -160,5 +160,11 @@ cloudcannon: ""
 github: ""
 keep-what-you-need-delete-the-rest: ""
 rss-feed: ""
-static:hero-subheading-home-1: ""
+static:hero-subheading-home-1: Un punto de partida para desarrolladores que
+  buscan crear un sitio web multilingüe con Astro y Rosey, utilizando el enfoque
+  basado en componentes de Bookshop para crear y editar sitios en CloudCannon.
+  Una vez que un desarrollador ha configurado el sitio, CloudCannon proporciona
+  una interfaz de usuario para que los editores no técnicos mantengan el
+  contenido del sitio e ingresen traducciones. Cree su propia copia y comience a
+  crear sus propios componentes para usar en CloudCannon CMS.
 static:left-right-text-home-1: ""
