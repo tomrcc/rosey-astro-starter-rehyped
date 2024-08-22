@@ -20,6 +20,7 @@ _editables:
     code: true
     horizontalrule: true
     image: true
+    snippet: true
 collections_config:
   pages:
     path: src/content/pages
