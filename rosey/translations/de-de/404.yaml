@@ -8,13 +8,13 @@ _inputs:
       groups:
         - heading: Still to translate (de-de)
           comment: Text to translate on [404](https://turquoise-kumara.cloudvent.net/404)
-          inputs:
-            - rss-feed
+          inputs: []
         - heading: Already translated (de-de)
           comment: Text already translated on
             [404](https://turquoise-kumara.cloudvent.net/404)
           inputs:
             - blog
+            - rss-feed
   blog:
     label: Blog
     hidden: false
