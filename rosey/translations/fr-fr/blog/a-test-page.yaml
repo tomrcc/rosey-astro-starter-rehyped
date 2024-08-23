@@ -12,24 +12,48 @@ _inputs:
           comment: Text to translate on
             [blog/a-test-page/](https://turquoise-kumara.cloudvent.net/blog/a-test-page/)
           inputs:
-            - all-you
-            - another-code-block
             - blog
-            - mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day
+            - markdown:all-you
+            - markdown:another-code-block
+            - markdown:mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day
+            - markdown:take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here
+            - markdown:we-have-a-fantastic-little-sky-were-trying-to-teach-you-a-technique-here-and-how-to-use-it
+            - markdown:we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide
+            - markdown:well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school
             - rss-feed
-            - take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here
-            - we-have-a-fantastic-little-sky-were-trying-to-teach-you-a-technique-here-and-how-to-use-it
-            - we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide
-            - well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school
         - heading: Already translated (fr-fr)
           comment: Text already translated on
             [blog/a-test-page/](https://turquoise-kumara.cloudvent.net/blog/a-test-page/)
           inputs: []
-  all-you:
+  blog:
+    label: Blog
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=Bl\
+      og)"
+  markdown:all-you:
     label: All you have to learn _here_ is how to hav...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=Al\
       l%20you%20have,There%20we%20are)"
@@ -40,27 +64,51 @@ _inputs:
       content: All you **have** to learn _here_ is how to have fun. Just pretend you
         are a whisper floating across a mountain. You have to make almighty
         decisions when you’re the creator. There we are.
-  another-code-block:
+  markdown:another-code-block:
     label: "Another code block:"
     hidden: false
-    type: text
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=An\
       other%20code%20block)"
-  blog:
-    label: Blog
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=Bl\
-      og)"
-  mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day:
+  markdown:mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day:
     label: Mix your color marbly don’t mix it dead. T...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=Mi\
       x%20your%20color,it%20all%20day)"
@@ -72,19 +120,27 @@ _inputs:
         sins. The only prerequisite is that it makes you happy. If it makes you
         happy then it’s good. When you do it your way you can go anywhere you
         choose. We’ll have a super time. Don’t fiddle with it all day.
-  rss-feed:
-    label: RSS Feed
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=RS\
-      S%20Feed)"
-  take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here:
+  markdown:take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here:
     label: Take your time. Speed will come later. You...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=Ta\
       ke%20your%20time,just%20playing%20here)"
@@ -97,11 +153,27 @@ _inputs:
         wild today. If you don’t think every day is a good day - try missing a
         few. You’ll see. Play with the angles. We don’t have to be committed. We
         are just playing here.
-  we-have-a-fantastic-little-sky-were-trying-to-teach-you-a-technique-here-and-how-to-use-it:
+  markdown:we-have-a-fantastic-little-sky-were-trying-to-teach-you-a-technique-here-and-how-to-use-it:
     label: We have a fantastic little sky! We’re tryi...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=We\
       %20have%20a,to%20use%20it)"
@@ -111,11 +183,27 @@ _inputs:
       icon: translate
       content: We have a fantastic little sky! We’re trying to teach you a technique
         here and how to use it.
-  we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide:
+  markdown:we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide:
     label: We have all at one time or another mixed s...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=We\
       %20have%20all,be%20your%20guide)"
@@ -126,11 +214,27 @@ _inputs:
       content: We have all at one time or another mixed some mud. It’s beautiful - and
         we haven’t even done anything to it yet. Let’s make some happy little
         clouds in our world. Let your heart be your guide.
-  well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school:
+  markdown:well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school:
     label: We’ll throw some old gray clouds in here j...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=We\
       %E2%80%99ll%20throw%20some,make%20in%20school)"
@@ -142,12 +246,20 @@ _inputs:
         having fun. Only eight colors that you need. This is the fun part Put it
         in, leave it alone. Get away from those little Christmas tree things we
         used to make in school.
-all-you: ""
-another-code-block: ""
+  rss-feed:
+    label: RSS Feed
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See on
+      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=RS\
+      S%20Feed)"
 blog: ""
-mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day: ""
+markdown:all-you: ""
+markdown:another-code-block: ""
+markdown:mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day: ""
+markdown:take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here: ""
+markdown:we-have-a-fantastic-little-sky-were-trying-to-teach-you-a-technique-here-and-how-to-use-it: ""
+markdown:we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide: ""
+markdown:well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school: ""
 rss-feed: ""
-take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here: ""
-we-have-a-fantastic-little-sky-were-trying-to-teach-you-a-technique-here-and-how-to-use-it: ""
-we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide: ""
-well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school: ""
