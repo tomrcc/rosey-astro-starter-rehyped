@@ -31,25 +31,17 @@
 		"original": "<p>As well as a translations workflow, some features come already set up in this template to help you start building components quickly, like:</p>\n<ul>\n<li><a href=\"https://cloudcannon.com/documentation/guides/bookshop-astro-guide/\">Bookshop</a></li>\n<li>Blog with pagination and tags</li>\n<li><a href=\"https://docs.astro.build/en/guides/images/#image--astroassets\">Image optimization</a></li>\n<li>SEO Controls</li>\n<li>Responsive header and footer</li>\n<li><a href=\"https://fontawesome.com/search?o=r&amp;m=free\">Font Awesome Icons</a></li>\n<li>Schemas for adding new pages</li>\n<li>Editable color pallete</li>\n<li>Markdown styles</li>\n<li>CloudCannon configuration</li>\n<li>CSS variables</li>\n</ul>\n",
 		"value": "<p>As well as a translations workflow, some features come already set up in this template to help you start building components quickly, like:</p>\n<ul>\n<li><a href=\"https://cloudcannon.com/documentation/guides/bookshop-astro-guide/\">Bookshop</a></li>\n<li>Blog with pagination and tags</li>\n<li><a href=\"https://docs.astro.build/en/guides/images/#image--astroassets\">Image optimization</a></li>\n<li>SEO Controls</li>\n<li>Responsive header and footer</li>\n<li><a href=\"https://fontawesome.com/search?o=r&amp;m=free\">Font Awesome Icons</a></li>\n<li>Schemas for adding new pages</li>\n<li>Editable color pallete</li>\n<li>Markdown styles</li>\n<li>CloudCannon configuration</li>\n<li>CSS variables</li>\n</ul>\n"
 	},
-	"FxUB8HB3czpw3pBC1s77vQOWV/y2KZ6LLLBfUiExPzI": {
-		"original": "\n<p data-rosey=\"well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school\">We’ll throw some old gray clouds in here just sneaking around and having fun. Only eight colors that you need. This is the fun part Put it in, leave it alone. Get away from those little Christmas tree things we used to make in school.</p>\n",
-		"value": "\n<p data-rosey=\"well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school\">We’ll throw some old gray clouds in here just sneaking around and having fun. Only eight colors that you need. This is the fun part Put it in, leave it alone. Get away from those little Christmas tree things we used to make in school.</p>\n"
+	"VsLn0tNKgLTcVEINXQ6Rq1IiB/32Mom1QkzqkR30hMY": {
+		"original": "<img alt=\"\" src=\"/images/blog/featured-image-2.jpg\">",
+		"value": "<img alt=\"\" src=\"/images/blog/featured-image-2.jpg\">"
 	},
 	"all-you": {
-		"original": "All you <strong data-rosey=\"have\">have</strong> to learn <em data-rosey=\"here\">here</em> is how to have fun. Just pretend you are a whisper floating across a mountain. You have to make almighty <sub>decisions</sub> when you’re the <sup>creator</sup>. There we are.",
+		"original": "All you <strong>have</strong> to learn <em>here</em> is how to have fun. Just pretend you are a whisper floating across a mountain. You have to make almighty <sub>decisions</sub> when you’re the <sup>creator</sup>. There we are.",
 		"value": "All you <strong data-rosey=\"have\">have</strong> to learn <em data-rosey=\"here\">here</em> is how to have fun. Just pretend you are a whisper floating across a mountain. You have to make almighty <sub>decisions</sub> when you’re the <sup>creator</sup>. There we are."
 	},
 	"another-code-block": {
 		"original": "Another code block:",
 		"value": "Another code block:"
-	},
-	"have": {
-		"original": "have",
-		"value": "have"
-	},
-	"here": {
-		"original": "here",
-		"value": "here"
 	},
 	"mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day": {
 		"original": "Mix your color marbly don’t mix it dead. Trees cover up a multitude of sins. The only prerequisite is that it makes you happy. If it makes you happy then it’s good. When you do it your way you can go anywhere you choose. We’ll have a super time. Don’t fiddle with it all day.",

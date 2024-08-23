@@ -12,11 +12,9 @@ _inputs:
           comment: Text to translate on
             [blog/a-test-page/](https://turquoise-kumara.cloudvent.net/blog/a-test-page/)
           inputs:
-            - FxUB8HB3czpw3pBC1s77vQOWV/y2KZ6LLLBfUiExPzI
+            - VsLn0tNKgLTcVEINXQ6Rq1IiB/32Mom1QkzqkR30hMY
             - all-you
             - another-code-block
-            - have
-            - here
             - mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day
             - take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here
             - we-have-a-fantastic-little-sky!-were-trying-to-teach-you-a-technique-here-and-how-to-use-it
@@ -28,22 +26,13 @@ _inputs:
           inputs:
             - blog
             - rss-feed
-  FxUB8HB3czpw3pBC1s77vQOWV/y2KZ6LLLBfUiExPzI:
-    label: We’ll throw some old gray clouds in here j...
+  VsLn0tNKgLTcVEINXQ6Rq1IiB/32Mom1QkzqkR30hMY:
+    label: "!"
     hidden: false
     type: textarea
     options: {}
     comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=We\
-      %E2%80%99ll%20throw%20some,make%20in%20school)"
-    context:
-      open: false
-      title: Untranslated Text
-      icon: translate
-      content: We’ll throw some old gray clouds in here just sneaking around and
-        having fun. Only eight colors that you need. This is the fun part Put it
-        in, leave it alone. Get away from those little Christmas tree things we
-        used to make in school.
+      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=!)"
   all-you:
     label: All you have to learn _here_ is how to hav...
     hidden: false
@@ -75,22 +64,6 @@ _inputs:
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=Bl\
       og)"
-  have:
-    label: have
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=ha\
-      ve)"
-  here:
-    label: here
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=he\
-      re)"
   mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day:
     label: Mix your color marbly don’t mix it dead. T...
     hidden: false
@@ -177,12 +150,10 @@ _inputs:
         having fun. Only eight colors that you need. This is the fun part Put it
         in, leave it alone. Get away from those little Christmas tree things we
         used to make in school.
-FxUB8HB3czpw3pBC1s77vQOWV/y2KZ6LLLBfUiExPzI: ""
+VsLn0tNKgLTcVEINXQ6Rq1IiB/32Mom1QkzqkR30hMY: ""
 all-you: ""
 another-code-block: ""
 blog: Blog
-have: ""
-here: ""
 mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day: ""
 rss-feed: RSS Feed
 take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here: ""

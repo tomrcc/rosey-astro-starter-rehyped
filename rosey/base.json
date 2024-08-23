@@ -1,8 +1,8 @@
 {
   "version": 2,
   "keys": {
-    "FxUB8HB3czpw3pBC1s77vQOWV/y2KZ6LLLBfUiExPzI": {
-      "original": "\n<p data-rosey=\"well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school\">We’ll throw some old gray clouds in here just sneaking around and having fun. Only eight colors that you need. This is the fun part Put it in, leave it alone. Get away from those little Christmas tree things we used to make in school.</p>\n",
+    "VsLn0tNKgLTcVEINXQ6Rq1IiB/32Mom1QkzqkR30hMY": {
+      "original": "<img alt=\"\" src=\"/images/blog/featured-image-2.jpg\">",
       "value": null,
       "pages": {
         "blog/a-test-page/index.html": 1
@@ -10,7 +10,7 @@
       "total": 1
     },
     "all-you": {
-      "original": "All you <strong data-rosey=\"have\">have</strong> to learn <em data-rosey=\"here\">here</em> is how to have fun. Just pretend you are a whisper floating across a mountain. You have to make almighty <sub>decisions</sub> when you’re the <sup>creator</sup>. There we are.",
+      "original": "All you <strong>have</strong> to learn <em>here</em> is how to have fun. Just pretend you are a whisper floating across a mountain. You have to make almighty <sub>decisions</sub> when you’re the <sup>creator</sup>. There we are.",
       "value": null,
       "pages": {
         "blog/a-test-page/index.html": 1
@@ -94,22 +94,6 @@
         "index.html": 2
       },
       "total": 2
-    },
-    "have": {
-      "original": "have",
-      "value": null,
-      "pages": {
-        "blog/a-test-page/index.html": 1
-      },
-      "total": 1
-    },
-    "here": {
-      "original": "here",
-      "value": null,
-      "pages": {
-        "blog/a-test-page/index.html": 1
-      },
-      "total": 1
     },
     "keep-what-you-need-delete-the-rest": {
       "original": " Keep what you need. Delete the rest. ",
