@@ -28,13 +28,16 @@ const textElementTagNames = [
   "a",
 ];
 
+const isTextElement = (element: Element) =>
+  textElementTagNames.includes(element.tagName);
+
 // This only affects normal md content, not text content of snippets
 // It's up to us to add data-rosey tags to the parts of snippets that need it
 
 export const autoAddRoseyTags: RehypePlugin = () => {
   return (tree) => {
     visit(tree, (node) => {
-      if (node.type != "element") {
+      if (node.type !== "element") {
         return;
       }
 
@@ -51,7 +54,7 @@ export const autoAddRoseyTags: RehypePlugin = () => {
       }
 
       // Don't include pesky spans, which appear in codeblocks
-      if (elementsFirstChild.type == "text" && element.tagName !== "span") {
+      if (isTextElement(element)) {
         element.properties!["data-rosey"] = generateRoseyID(
           elementsFirstChild.value
         );
@@ -59,12 +62,3 @@ export const autoAddRoseyTags: RehypePlugin = () => {
     });
   };
 };
-
-const isTextElement = (element: Element) =>
-  textElementTagNames.map((textElementTagName) => {
-    if (element?.tagName == textElementTagName) {
-      return true;
-    } else {
-      return false;
-    }
-  });
