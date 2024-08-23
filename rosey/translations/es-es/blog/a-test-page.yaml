@@ -19,7 +19,7 @@ _inputs:
             - mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day
             - rss-feed
             - take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here
-            - we-have-a-fantastic-little-sky!-were-trying-to-teach-you-a-technique-here-and-how-to-use-it
+            - we-have-a-fantastic-little-sky-were-trying-to-teach-you-a-technique-here-and-how-to-use-it
             - we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide
             - well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school
         - heading: Already translated (es-es)
@@ -105,7 +105,7 @@ _inputs:
         wild today. If you don’t think every day is a good day - try missing a
         few. You’ll see. Play with the angles. We don’t have to be committed. We
         are just playing here.
-  we-have-a-fantastic-little-sky!-were-trying-to-teach-you-a-technique-here-and-how-to-use-it:
+  we-have-a-fantastic-little-sky-were-trying-to-teach-you-a-technique-here-and-how-to-use-it:
     label: We have a fantastic little sky! We’re tryi...
     hidden: false
     type: textarea
@@ -157,6 +157,6 @@ blog: ""
 mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day: ""
 rss-feed: ""
 take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here: ""
-we-have-a-fantastic-little-sky!-were-trying-to-teach-you-a-technique-here-and-how-to-use-it: ""
+we-have-a-fantastic-little-sky-were-trying-to-teach-you-a-technique-here-and-how-to-use-it: ""
 we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide: ""
 well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school: ""
