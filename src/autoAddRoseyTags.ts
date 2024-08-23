@@ -55,7 +55,7 @@ export const autoAddRoseyTags: RehypePlugin = () => {
 
       // Don't include pesky spans, which appear in codeblocks
       if (isTextElement(element)) {
-        element.properties!["data-rosey"] = generateRoseyID(
+        element.properties["data-rosey"] = generateRoseyID(
           elementsFirstChild.value
         );
       }
