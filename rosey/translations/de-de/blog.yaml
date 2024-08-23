@@ -9,13 +9,13 @@ _inputs:
         - heading: Still to translate (de-de)
           comment: Text to translate on
             [blog/](https://turquoise-kumara.cloudvent.net/blog/)
-          inputs:
-            - rss-feed
+          inputs: []
         - heading: Already translated (de-de)
           comment: Text already translated on
             [blog/](https://turquoise-kumara.cloudvent.net/blog/)
           inputs:
             - blog
+            - rss-feed
   blog:
     label: Blog
     hidden: false

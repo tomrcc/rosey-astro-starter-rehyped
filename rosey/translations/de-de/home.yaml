@@ -12,13 +12,13 @@ _inputs:
             - cloudcannon
             - github
             - keep-what-you-need-delete-the-rest
-            - rss-feed
             - static:left-right-text-home-1
         - heading: Already translated (de-de)
           comment: Text already translated on [](https://turquoise-kumara.cloudvent.net/)
           inputs:
             - astro-rosey-starter
             - blog
+            - rss-feed
             - static:hero-subheading-home-1
   astro-rosey-starter:
     label: Astro Rosey Starter
