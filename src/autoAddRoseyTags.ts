@@ -16,7 +16,20 @@ const generateRoseyID = (text: string) => {
   return slugify(formattedText, { remove: /['".*,:\/]/g });
 };
 
-const textElementTagNames = ["p", "h1", "h2", "h3", "h4", "h5", "h6", "li"];
+const textElementTagNames = [
+  "p",
+  "h1",
+  "h2",
+  "h3",
+  "h4",
+  "h5",
+  "h6",
+  "li",
+  "a",
+];
+
+// This only affects normal md content, not text content of snippets
+// It's up to us to add data-rosey tags to the parts of snippets that need it
 
 export const autoAddRoseyTags: RehypePlugin = () => {
   return (tree) => {
