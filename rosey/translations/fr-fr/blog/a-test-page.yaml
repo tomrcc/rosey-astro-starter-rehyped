@@ -12,7 +12,6 @@ _inputs:
           comment: Text to translate on
             [blog/a-test-page/](https://turquoise-kumara.cloudvent.net/blog/a-test-page/)
           inputs:
-            - VsLn0tNKgLTcVEINXQ6Rq1IiB/32Mom1QkzqkR30hMY
             - all-you
             - another-code-block
             - blog
@@ -26,13 +25,6 @@ _inputs:
           comment: Text already translated on
             [blog/a-test-page/](https://turquoise-kumara.cloudvent.net/blog/a-test-page/)
           inputs: []
-  VsLn0tNKgLTcVEINXQ6Rq1IiB/32Mom1QkzqkR30hMY:
-    label: "!"
-    hidden: false
-    type: textarea
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=!)"
   all-you:
     label: All you have to learn _here_ is how to hav...
     hidden: false
@@ -150,7 +142,6 @@ _inputs:
         having fun. Only eight colors that you need. This is the fun part Put it
         in, leave it alone. Get away from those little Christmas tree things we
         used to make in school.
-VsLn0tNKgLTcVEINXQ6Rq1IiB/32Mom1QkzqkR30hMY: ""
 all-you: ""
 another-code-block: ""
 blog: ""

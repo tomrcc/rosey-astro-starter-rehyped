@@ -1,14 +1,6 @@
 {
   "version": 2,
   "keys": {
-    "VsLn0tNKgLTcVEINXQ6Rq1IiB/32Mom1QkzqkR30hMY": {
-      "original": "<img alt=\"\" src=\"/images/blog/featured-image-2.jpg\">",
-      "value": null,
-      "pages": {
-        "blog/a-test-page/index.html": 1
-      },
-      "total": 1
-    },
     "all-you": {
       "original": "All you <strong>have</strong> to learn <em>here</em> is how to have fun. Just pretend you are a whisper floating across a mountain. You have to make almighty <sub>decisions</sub> when you’re the <sup>creator</sup>. There we are.",
       "value": null,
