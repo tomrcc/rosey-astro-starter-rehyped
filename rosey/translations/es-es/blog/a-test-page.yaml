@@ -13,33 +13,17 @@ _inputs:
             [blog/a-test-page/](https://turquoise-kumara.cloudvent.net/blog/a-test-page/)
           inputs:
             - FxUB8HB3czpw3pBC1s77vQOWV/y2KZ6LLLBfUiExPzI
-            - Z0kOrbgL5jCwZuz9GfzKjJhQtUQPeSL0SAK/loGVZ80
             - all-you
-            - an-array-item
-            - an_object_key
-            - another-array-item
             - another-code-block
-            - another_thing
             - blog
-            - code
-            - div
-            - greater
-            - greatera-paragraphless
-            - greaterthis-is-a-test-for-html-code-blocksless
-            - h1
             - have
             - here
-            - less
-            - mNpNl/f+H5Ef6sxmw7adKQ/slhvj+v03eUT3yUZs54U
             - mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day
-            - options
-            - p
             - rss-feed
             - take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here
             - we-have-a-fantastic-little-sky!-were-trying-to-teach-you-a-technique-here-and-how-to-use-it
             - we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide
             - well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school
-            - "{}"
         - heading: Already translated (es-es)
           comment: Text already translated on
             [blog/a-test-page/](https://turquoise-kumara.cloudvent.net/blog/a-test-page/)
@@ -60,13 +44,6 @@ _inputs:
         having fun. Only eight colors that you need. This is the fun part Put it
         in, leave it alone. Get away from those little Christmas tree things we
         used to make in school.
-  Z0kOrbgL5jCwZuz9GfzKjJhQtUQPeSL0SAK/loGVZ80:
-    label: "-"
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=-)"
   all-you:
     label: All you have to learn _here_ is how to hav...
     hidden: false
@@ -82,30 +59,6 @@ _inputs:
       content: All you **have** to learn _here_ is how to have fun. Just pretend you
         are a whisper floating across a mountain. You have to make almighty
         decisions when you’re the creator. There we are.
-  an-array-item:
-    label: an array item
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=an\
-      %20array%20item)"
-  an_object_key:
-    label: an_object_key
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=an\
-      _object_key)"
-  another-array-item:
-    label: another array item
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=an\
-      other%20array%20item)"
   another-code-block:
     label: "Another code block:"
     hidden: false
@@ -114,14 +67,6 @@ _inputs:
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=An\
       other%20code%20block)"
-  another_thing:
-    label: another_thing
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=an\
-      other_thing)"
   blog:
     label: Blog
     hidden: false
@@ -130,53 +75,6 @@ _inputs:
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=Bl\
       og)"
-  code:
-    label: code
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=co\
-      de)"
-  div:
-    label: div
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=di\
-      v)"
-  greater:
-    label: ""
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=)"
-  greatera-paragraphless:
-    label: A paragraph
-    hidden: false
-    type: textarea
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=A%\
-      20paragraph)"
-  greaterthis-is-a-test-for-html-code-blocksless:
-    label: This is a test for HTML code blocks
-    hidden: false
-    type: textarea
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=Th\
-      is%20is%20a,HTML%20code%20blocks)"
-  h1:
-    label: h1
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=h1\
-      )"
   have:
     label: have
     hidden: false
@@ -193,20 +91,6 @@ _inputs:
     comment: "[See on
       page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=he\
       re)"
-  less:
-    label: ""
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=)"
-  mNpNl/f+H5Ef6sxmw7adKQ/slhvj+v03eUT3yUZs54U:
-    label: ":"
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=)"
   mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day:
     label: Mix your color marbly don’t mix it dead. T...
     hidden: false
@@ -223,21 +107,6 @@ _inputs:
         sins. The only prerequisite is that it makes you happy. If it makes you
         happy then it’s good. When you do it your way you can go anywhere you
         choose. We’ll have a super time. Don’t fiddle with it all day.
-  options:
-    label: options
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=op\
-      tions)"
-  p:
-    label: p
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=p)"
   rss-feed:
     label: RSS Feed
     hidden: false
@@ -308,39 +177,15 @@ _inputs:
         having fun. Only eight colors that you need. This is the fun part Put it
         in, leave it alone. Get away from those little Christmas tree things we
         used to make in school.
-  "{}":
-    label: ": "
-    hidden: false
-    type: text
-    options: {}
-    comment: "[See on
-      page](https://turquoise-kumara.cloudvent.net/blog/a-test-page/#:~:text=%2\
-      0)"
 FxUB8HB3czpw3pBC1s77vQOWV/y2KZ6LLLBfUiExPzI: ""
-Z0kOrbgL5jCwZuz9GfzKjJhQtUQPeSL0SAK/loGVZ80: ""
 all-you: ""
-an-array-item: ""
-an_object_key: ""
-another-array-item: ""
 another-code-block: ""
-another_thing: ""
 blog: ""
-code: ""
-div: ""
-greater: ""
-greatera-paragraphless: ""
-greaterthis-is-a-test-for-html-code-blocksless: ""
-h1: ""
 have: ""
 here: ""
-less: ""
-mNpNl/f+H5Ef6sxmw7adKQ/slhvj+v03eUT3yUZs54U: ""
 mix-your-color-marbly-dont-mix-it-dead-trees-cover-up-a-multitude-of-sins-the-only-prerequisite-is-that-it-makes-you-happy-if-it-makes-you-happy-then-its-good-when-you-do-it-your-way-you-can-go-anywhere-you-choose-well-have-a-super-time-dont-fiddle-with-it-all-day: ""
-options: ""
-p: ""
 rss-feed: ""
 take-your-time-speed-will-come-later-you-can-bend-rivers-but-when-i-get-home-the-only-thing-i-have-power-over-is-the-garbage-lets-get-wild-today-if-you-dont-think-every-day-is-a-good-day-try-missing-a-few-youll-see-play-with-the-angles-we-dont-have-to-be-committed-we-are-just-playing-here: ""
 we-have-a-fantastic-little-sky!-were-trying-to-teach-you-a-technique-here-and-how-to-use-it: ""
 we-have-all-at-one-time-or-another-mixed-some-mud-its-beautiful-and-we-havent-even-done-anything-to-it-yet-lets-make-some-happy-little-clouds-in-our-world-let-your-heart-be-your-guide: ""
 well-throw-some-old-gray-clouds-in-here-just-sneaking-around-and-having-fun-only-eight-colors-that-you-need-this-is-the-fun-part-put-it-in-leave-it-alone-get-away-from-those-little-christmas-tree-things-we-used-to-make-in-school: ""
-"{}": ""
