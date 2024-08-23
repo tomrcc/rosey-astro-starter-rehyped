@@ -3,7 +3,7 @@ import { visit } from "unist-util-visit";
 import type { Element } from "hast";
 import slugify from "slugify";
 
-const generateRoseyID = (text: string) => {
+const generateRoseyMarkdownID = (text: string) => {
   if (!text) {
     return "";
   }
@@ -13,7 +13,8 @@ const generateRoseyID = (text: string) => {
     /(?:__[*#])|\[(.*?)\]\(.*?\)/gm,
     /$1/
   );
-  return slugify(formattedText, { remove: /['!".*,:\/]/g });
+  const slugifiedText = slugify(formattedText, { remove: /['!".*,:\/]/g });
+  return `markdown:${slugifiedText}`;
 };
 
 const textElementTagNames = [
@@ -55,7 +56,7 @@ export const autoAddRoseyTags: RehypePlugin = () => {
 
       // Don't include pesky spans, which appear in codeblocks
       if (isTextElement(element) && elementsFirstChild?.value) {
-        element.properties["data-rosey"] = generateRoseyID(
+        element.properties["data-rosey"] = generateRoseyMarkdownID(
           elementsFirstChild.value
         );
       }
